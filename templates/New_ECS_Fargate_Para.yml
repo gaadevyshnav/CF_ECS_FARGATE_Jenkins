@@ -54,7 +54,7 @@ Resources:
             LogDriver: awslogs
             Options:
               awslogs-group: /ecs/MyJfrog_Task
-              awslogs-region: us-east-1
+              awslogs-region: eu-west-1
               awslogs-stream-prefix: ecs
           PortMappings:
             - HostPort: !Ref HostPort
