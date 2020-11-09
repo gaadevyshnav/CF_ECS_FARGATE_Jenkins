@@ -1,15 +1,15 @@
 [
     {
       "ParameterKey": "VpcId",
-      "ParameterValue": "vpc-xxxxxxxxxxxxxxx"
+      "ParameterValue": "vpc-701cd409"
     },
     {
       "ParameterKey": "SubnetId",
-      "ParameterValue": "subnet-xxxxxxxxxxxxxxxxx"
+      "ParameterValue": "subnet-3f849177"
     },
     {
       "ParameterKey": "SecurityGroupId",
-      "ParameterValue": "sg-xxxxxxxxxxxxxxxxx"
+      "ParameterValue": "sg-afddbfe9"
     },
     {
       "ParameterKey": "ImageUrl",
