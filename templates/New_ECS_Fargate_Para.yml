@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   
   VpcId:
-    Type: 'AWS::EC2::VPC::Id'
+    Type: 'AWS::EC2::VPC::vpc-701cd409'
     Description: Select a VPC that allows instances to access the Internet.
   SubnetId:
     Type: AWS::EC2::Subnet::Id
