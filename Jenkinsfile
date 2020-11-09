@@ -1,6 +1,6 @@
 node() {
         stage("POLL SCM") {
-                git credentialsId: 'gitlab', url: 'https://github.com/goyalvickey78/CF_ECS_FARGATE_Jenkins.git'
+                git credentialsId: 'gadev_cloud', url: 'https://github.com/gaadevyshnav/CF_ECS_FARGATE_Jenkins.git'
         }
 	stage("CF Lintingi and Json Validation"){
 	    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'ACCESS_ID', credentialsId: 'ECS_FARGATE', secretKeyVariable: 'ACCESS_KEY']]) {
