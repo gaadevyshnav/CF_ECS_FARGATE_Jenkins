@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   
   VpcId:
-    Type: 'AWS::EC2::VPC::vpc-701cd409'
+    Type: 'AWS::EC2::VPC::Id'
     Description: Select a VPC that allows instances to access the Internet.
   SubnetId:
     Type: AWS::EC2::Subnet::Id
@@ -48,7 +48,7 @@ Resources:
   taskdefinition:
     Type: 'AWS::ECS::TaskDefinition'
     Properties:
-      ExecutionRoleArn: 'arn:aws:iam::xxxxxxxxxxxx:role/ecsTaskExecutionRole'
+      ExecutionRoleArn: 'arn:aws:iam::182441515966:role/ecsTaskExecutionRole'
       ContainerDefinitions:
         - LogConfiguration:
             LogDriver: awslogs
