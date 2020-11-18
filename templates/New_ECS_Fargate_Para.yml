@@ -87,6 +87,6 @@ Resources:
       LaunchType: FARGATE
       TaskDefinition: !Ref taskdefinition
       LoadBalancers:
-        - TargetGroupArn: arn:aws:elasticloadbalancing:us-east-1:182441515966:targetgroup/ecs-tg/234802e19c1b0c59
+        - TargetGroupArn: arn:aws:elasticloadbalancing:us-east-1:182441515966:targetgroup/testgnecs/241a898e7f13704d
           ContainerPort: !Ref ContainerPort
           ContainerName: JFROG_CONT
