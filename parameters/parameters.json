@@ -5,11 +5,11 @@
     },
     {
       "ParameterKey": "SubnetId",
-      "ParameterValue": "sg-0c004d66a55af5d47"
+      "ParameterValue": "subnet-3f849177"
     },
     {
       "ParameterKey": "SecurityGroupId",
-      "ParameterValue": "sg-889edbbb"
+      "ParameterValue": "sg-0c004d66a55af5d47"
     },
     {
       "ParameterKey": "ImageUrl",
