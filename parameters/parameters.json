@@ -5,7 +5,7 @@
     },
     {
       "ParameterKey": "SubnetId",
-      "ParameterValue": "subnet-6e985b5f"
+      "ParameterValue": "sg-0c004d66a55af5d47"
     },
     {
       "ParameterKey": "SecurityGroupId",
